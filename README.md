@@ -1,1 +1,1 @@
-Dwk website and blog made with gatsby yeah man
+Dwk website and blog made with gatsby yeah
