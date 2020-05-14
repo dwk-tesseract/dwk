@@ -26,6 +26,7 @@ const Bio = () => {
           author {
             name
             summary
+            infos
           }
           social {
             twitter
@@ -57,7 +58,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+        Written by <strong>{author.name}</strong> {author.infos}
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
