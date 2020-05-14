@@ -4,6 +4,7 @@ module.exports = {
     author: {
       name: `David Wieczorek`,
       summary: `Lives and works in Paris, building and thinking useful things.`,
+      infos: `Test`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -60,7 +61,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `DWK Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
